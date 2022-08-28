@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 1% 6%;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.856);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+ul > li {
+    font-weight: 700;
+    margin: 0 14px;
+    cursor: pointer;
+}
+i{
+    font-size: 18px;
+}
+
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.left-home{
+    text-align: start;
+}
+.left-home > h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+button{
+    background-color: #E02C6D;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 11px 22px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.home-btn{
+    margin-right: 10px;
+}
+.camera{
+    position: relative;
+}
+.main-camera{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+}
+
+.sponsore{
+    background-color: #fff;
+    border-left: none;
+    border-right: none;
+    padding: 20px 20px;
+    border-top: 1px solid rgba(221, 220, 220, 0.959);
+    border-bottom: 1px solid rgba(218, 218, 218, 0.993);
+}
+.sponsore-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-section{
+    margin-top: 100px;
+}
+.card-section > h1{
+    text-align: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1ft);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 30%;
+}
+.card{
+    background-color: grey;
+}
+.card > h2,h3{
+    margin: 5px 0;
+}
+.card > i{
+    color: orange;
+}
+.card > span{
+    margin-left: 10px;
+}
